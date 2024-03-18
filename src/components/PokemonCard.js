@@ -1,12 +1,15 @@
 import React from "react";
 import { Card } from "semantic-ui-react";
 
-function PokemonCard() {
+function PokemonCard(poki) {
+  const [front,setFront] = useState
   return (
     <Card>
       <div>
         <div className="image">
           <img alt="oh no!" />
+          {/* <img src = {front? poki.sprites.font : piki.sprites back}
+          /> */}
         </div>
         <div className="content">
           <div className="header">POKEMON NAME HERE</div>
